@@ -54,7 +54,7 @@ app.get('/aboutus/*', (req, res) => {
 
 app.get('*', (req, res) => {
     res.render('404', {
-        errorcomment: 'Oopps page couldn"t be found'
+        errorcomment: 'Oopps page couldn"t be found, click here to go back'
     });
 });
 
